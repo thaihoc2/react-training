@@ -2,11 +2,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
-In the project directory, you can run:
+Go to 'server' folder
 
 ### 'json-server --watch db.json --port 3004'
-Go to 'server' folder and run the above command to run json server in port 3004 (mock server APIs)
+Runs the above command to start json server in port 3004 (mock server APIs)
 
+In the project directory, you can run:
 
 ### `npm start`
 
