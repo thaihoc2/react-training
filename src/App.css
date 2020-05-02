@@ -12,6 +12,10 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.user-avatar img {
+  width: 100px;
+  height: auto;
+}
 
 .App-header {
   background-color: #282c34;
@@ -35,4 +39,97 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.left-container {
+  width: 75%;
+  float: left;
+  padding-left: 10px;
+  padding-right: 50px;
+}
+
+.profile {
+  width: 25%;
+  float: left;
+}
+
+.datatable {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
+.box-container
+{
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  position: relative;
+  max-width: 1356px;
+  flex-flow: row wrap;
+  flex: 1 1 0%;
+  margin: -12px;
+  padding: 30px;
+}
+
+.container {
+  display: block;
+  box-shadow: rgba(46, 91, 255, 0.07) 0px 10px 20px 0px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 1px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(46, 91, 255, 0.08);
+  border-image: initial;
+  flex: 0 0 210px;
+  margin: 12px;
+  padding: 18px 24px;
+}
+
+.icon {
+  background-color: rgba(51, 172, 46, 0.15);
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: 48px;
+  margin-bottom: 16px;
+  width: 48px;
+  background-size: 19px;
+  border-radius: 50%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  float: left;
+}
+
+.title {
+  font-size: 150%;
+  font-weight: 300;
+  letter-spacing: -0.6px;
+  margin-left: 60px;
+}
+
+.sub-title {
+  margin-top: 1px;
+  color: rgb(135, 152, 173);
+  line-height: 1.47;
+}
+
+.ant-btn {
+  margin-right: 8px;
+}
+
+.ticket-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 35%;
 }

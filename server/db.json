@@ -1,0 +1,97 @@
+{
+  "analysis": [
+    {
+      "id": 1,
+      "title": "Resolved tickets",
+      "value": 1233,
+      "iconUrl": "https://user-images.githubusercontent.com/20517517/80727973-9902a580-8b30-11ea-9006-e68934f0cb25.png"
+    },
+    {
+      "id": 2,
+      "title": "Average response",
+      "value": 0.012,
+      "iconUrl": "https://user-images.githubusercontent.com/20517517/80727976-999b3c00-8b30-11ea-9db2-73fcc2afd26a.png"
+    },
+    {
+      "id": 3,
+      "title": "Meidan NPS",
+      "value": 4.32,
+      "iconUrl": "https://user-images.githubusercontent.com/20517517/80727970-97d17880-8b30-11ea-9a5b-cd9ee53835f8.png"
+    }
+  ],
+  "tickets": [
+    {
+      "id": 2178,
+      "subject": "Refund request",
+      "description": "this is for testing",
+      "requestedDate": 1588525200000,
+      "latestUpdate": 1588611600000,
+      "status": "Active"
+    },
+    {
+      "id": 2179,
+      "subject": "Refund request",
+      "description": "this is for testing",
+      "requestedDate": 1588525200000,
+      "latestUpdate": 1588611600000,
+      "status": "Resolved"
+    },
+    {
+      "id": 2180,
+      "subject": "Refund request",
+      "description": "this is for testing",
+      "requestedDate": 1588525200000,
+      "latestUpdate": 1588611600000,
+      "status": "Paused"
+    },
+    {
+      "id": 2181,
+      "subject": "Refund request",
+      "description": "this is for testing",
+      "requestedDate": 1588525200000,
+      "latestUpdate": 1588611600000,
+      "status": "Cancelled"
+    },
+    {
+      "subject": "Test 01",
+      "requestedDate": "1588525200000",
+      "latestUpdate": "1588525200000",
+      "status": "Resolved",
+      "description": "tesdasd",
+      "id": 2182
+    },
+    {
+      "subject": "ticket 02",
+      "description": "this is cancelled ticket",
+      "requestedDate": 1586363042698,
+      "latestUpdate": 1586622245444,
+      "status": "Cancelled",
+      "id": 2183
+    },
+    {
+      "subject": "dasdsadas",
+      "requestedDate": 1586881526868,
+      "latestUpdate": null,
+      "status": "Resolved",
+      "description": "dsdsada",
+      "id": 2184
+    }
+  ],
+  "profile": {
+    "id": "some-unique-id",
+    "name": "Mr Hoc",
+    "title": "Sr. Software Engineer",
+    "roles": [
+      "Developer"
+    ],
+    "email": "someemail2@gmail.com",
+    "phone": "01234234232",
+    "role": [
+      "Developer",
+      "Technical Architect",
+      "Project Manager"
+    ],
+    "bio": "this is my bio",
+    "avatar": "https://homepages.cae.wisc.edu/~ece533/images/boat.png"
+  }
+}
